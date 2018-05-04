@@ -1,0 +1,16 @@
+Using yum:
+=======================
+RHEL-7 SERVER STEPS:
+=======================
+
+Step1:
+  yum install https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
+  
+Step2:
+  yum update
+  
+Step3:
+  yum install ansible
+  
+Step4:
+  ansible --version
